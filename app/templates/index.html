@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streamify Lite - Rekomendasi Konten</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎬 Streamify Lite</h1>
+      <p>Platform Streaming Sederhana — Latihan AWS Pemula</p>
+    </header>
+
+    <section class="card">
+      <h2>Daftar Konten</h2>
+      <div class="filter">
+        <label>Filter Genre:</label>
+        <select id="genreFilter">
+          <option value="">Semua</option>
+          <option value="Action">Action</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Drama">Drama</option>
+          <option value="Horror">Horror</option>
+          <option value="Sci-Fi">Sci-Fi</option>
+          <option value="Romance">Romance</option>
+        </select>
+        <button onclick="loadContents()">Tampilkan</button>
+      </div>
+      <div id="contentList" class="list"></div>
+    </section>
+
+    <section class="card">
+      <h2>Rekomendasi untuk User</h2>
+      <div class="filter">
+        <label>User ID:</label>
+        <input type="text" id="userId" placeholder="contoh: U001" value="U001">
+        <button onclick="getRecommendation()">Cari Rekomendasi</button>
+      </div>
+      <div id="recommendResult" class="list"></div>
+    </section>
+
+    <footer>
+      <p>Soal Latihan AWS Cloud Computing untuk Pemula · Hanya pakai S3 + EC2</p>
+    </footer>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+content_id,title,content_type,genre,avg_rating,release_year,duration_minutes,is_exclusive
+C001,The Last Horizon,Series,Sci-Fi,4.3,2022,119,true
+C002,Laugh Out Loud,Movie,Comedy,3.7,2024,127,true
+C003,Midnight Shadow,Series,Horror,4.1,2024,140,true
+C004,Love in Paris,Series,Romance,3.7,2016,26,false
+C005,Iron Fist,Movie,Action,4.5,2019,136,true
+C006,Broken Hearts,Movie,Drama,3.8,2021,27,false
+C007,Galaxy Warriors,Series,Sci-Fi,3.1,2015,20,false
+C008,Funny Bones,Series,Comedy,3.5,2016,46,true
+C009,Dark Forest,Movie,Horror,4.7,2018,92,true
+C010,Summer Romance,Series,Romance,4.3,2018,134,true
+C011,Street Fighter,Movie,Action,3.1,2018,30,true
+C012,Silent Tears,Series,Drama,4.8,2021,93,true
+C013,Neon Future,Series,Sci-Fi,3.8,2025,137,true
+C014,Joke Master,Movie,Comedy,4.7,2021,95,false
+C015,Haunted House,Series,Horror,3.8,2023,144,false
+C016,First Kiss,Series,Romance,4.3,2021,35,false
+C017,Speed Racer,Movie,Action,3.2,2019,90,false
+C018,Family Ties,Series,Drama,4.7,2020,131,false
+C019,Alien Invasion,Series,Sci-Fi,4.2,2024,130,true
+C020,Stand Up Night,Series,Comedy,4.1,2024,23,false
